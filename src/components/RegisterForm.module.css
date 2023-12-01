@@ -1,0 +1,10 @@
+input {
+  padding: 5px;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.window {
+  width: 200px;
+  margin: 10px;
+}

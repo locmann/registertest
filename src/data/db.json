@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "email": "test@test.ru",
+      "pass": "test123",
+      "id": 1
+    },
+    {
+      "email": "asd",
+      "password": "asd",
+      "id": 2
+    },
+    {
+      "email": "123@asd.qw",
+      "password": "1231",
+      "id": 3
+    },
+    {
+      "email": "q@q.ru",
+      "password": "asdasd",
+      "id": 4
+    },
+    {
+      "email": "q@q.ruq",
+      "password": "qweqwe",
+      "id": 5
+    },
+    {
+      "email": "b0ne7228@gmail.com",
+      "password": "qweqwe",
+      "id": 6
+    },
+    {
+      "email": "q123@q.ru",
+      "password": "qweqwe",
+      "id": 7
+    },
+    {
+      "email": "q123123@q.ru",
+      "password": "qweq",
+      "id": 8
+    }
+  ]
+}
