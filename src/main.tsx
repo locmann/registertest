@@ -8,6 +8,7 @@ import { Login } from "./pages/Login.tsx";
 import { Provider } from "react-redux";
 import { store } from "./store/store.ts";
 import { ChangePassword } from "./pages/ChangePassword.tsx";
+import { PrivateRoute } from "./components/PrivateRoute.tsx";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
   },
   {
     path: "changePassword",
-    element: <ChangePassword />,
+    element: (
+      <PrivateRoute path="/login">
+        <ChangePassword />
+      </PrivateRoute>
+    ),
   },
 ]);
 
